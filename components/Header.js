@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -6,7 +6,7 @@ export default function Header() {
       <header className="header">
         <nav className="nav" role="navigation" aria-label="main navigation">
           <Link href="/">
-            <a>Demo Blog</a>
+            <a>Syknapse Blog</a>
           </Link>
           <Link href="/about">
             <a>About</a>
@@ -38,5 +38,5 @@ export default function Header() {
         }
       `}</style>
     </>
-  )
+  );
 }
