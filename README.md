@@ -1,18 +1,14 @@
-# Next + Netlify Markdown Blog Starter
+# Syknapse Blog
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8979c7b5-18bf-4837-9861-2d9a5844b19b/deploy-status)](https://app.netlify.com/sites/next-netlify-blog-starter/deploys)
+This is my developer blog. I write about career change and front end development.
 
-This is a lightweight Next.js (v9.5+) Markdown Blog, configured so you can one-click install a blog and deploy it to [Netlify](https://url.netlify.com/r1j6ybSYU)!
+It was built with Next.js and deployed with Netlify based on [this great project](https://github.com/cassidoo/next-netlify-blog-starter) by [Cassidy Williams](https://twitter.com/cassidoo) which creates and deploys the project with a single click.
 
-Get started by clicking here:
+A detailed tutorial of how to build this can be found here [tutorial blog post](https://url.netlify.com/ByVW0bCF8).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-blog-starter&utm_source=github&utm_medium=blogstarter-cs&utm_campaign=devex)
+## Dev
 
-Or, if you'd like to build it yourself, here's a [tutorial blog post](https://url.netlify.com/ByVW0bCF8) that should get you on the right track!
-
-## The nitty gritty
-
-If you'd like to work with this project locally, run the development server:
+To work on the project locally, run the development server:
 
 ```bash
 npm run dev
@@ -20,32 +16,25 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-If you'd like to write a new blog post, write it in Markdown in the `posts` directory.
+### Posts
 
-### Installation options
+New blog posts are added to the `posts` directory in Markdown.
 
-**Option one:** One-click deploy
+### Pages
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-blog-starter&utm_source=github&utm_medium=blogstarter-cs&utm_campaign=devex)
-
-**Option two:** Manual clone
-
-1. Clone this repo: `git clone https://github.com/cassidoo/next-netlify-blog-starter`
-2. Navigate to the directory and run `npm run dev`
-3. Make your changes
-4. Connect to [Netlify](https://url.netlify.com/r1j6ybSYU) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
+New pages are added to the `pages` directory.
 
 ### Styling
 
-Included are some basic styles with [styled-jsx](https://github.com/zeit/styled-jsx), which is included out of the box with Next.js. Because this uses Next.js 9.3, there's also built-in Sass support and CSS Module support, if you'd prefer to use those.
+Style is created with [styled-jsx](https://github.com/zeit/styled-jsx), which is included out of the box with Next.js. Because this uses Next.js 9.3, there's also built-in Sass support and CSS Module support.
 
 The font used is [Inter](https://fonts.google.com/specimen/Inter).
 
 ### Hero images
 
-You may include an optional hero image in your posts. Put the images in `public/static/`, and then include in your blog .md file like so:
+To include an optional hero image in a post put the images in `public/static/`, and then include in the blog .md file metadata:
 
 ```
 ---
@@ -56,4 +45,6 @@ hero_image: ../static/example.jpg
 ---
 ```
 
-See `demo-post-1.md` for an example of this.
+## Hosting
+
+Hosted on `blog` subdomain of `sykhoudeib.com`. More info on subdomain hosting [here](https://dev.to/chiangs/host-your-projects-on-subdomains-59m3), and different repos for different subdomains on Netlify [here](https://www.freecodecamp.org/news/how-to-host-a-git-repository-on-a-subdomain-with-netlify-b8afb5fca96e/)

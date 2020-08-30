@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Link from 'next/link'
+import colors from '../themes/colors'
 
 export default function Header() {
   return (
@@ -10,6 +11,9 @@ export default function Header() {
           </Link>
           <Link href="/about">
             <a>About</a>
+          </Link>
+          <Link href="https://www.sykhoudeib.com/">
+            <a title="Portfolio, about me, contact, and more">sykhoudeib.com</a>
           </Link>
         </nav>
       </header>
@@ -30,7 +34,7 @@ export default function Header() {
         }
         nav a {
           margin-right: 20px;
-          color: #00a395;
+          color: ${colors.primary};
           text-decoration: none;
         }
         nav a:hover {
@@ -38,5 +42,5 @@ export default function Header() {
         }
       `}</style>
     </>
-  );
+  )
 }

@@ -5,6 +5,8 @@ import ReactMarkdown from 'react-markdown'
 import Layout from '@components/Layout'
 import getSlugs from '@utils/getSlugs'
 
+import colors from '../../themes/colors'
+
 export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   if (!frontmatter) return <></>
 
@@ -19,13 +21,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
         </div>
         <article>
           <h1>{frontmatter.title}</h1>
-          {frontmatter.hero_image && (
-            <img
-              src={frontmatter.hero_image}
-              className="hero"
-              alt={frontmatter.title}
-            />
-          )}
+          {frontmatter.hero_image && <img src={frontmatter.hero_image} className="hero" alt={frontmatter.title} />}
           <div>
             <ReactMarkdown source={markdownBody} />
           </div>
@@ -48,7 +44,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
         .back {
           width: 100%;
           max-width: 1200px;
-          color: #00a395;
+          color: ${colors.primary};
         }
       `}</style>
     </>
@@ -72,11 +68,11 @@ export async function getStaticProps({ ...ctx }) {
 }
 
 export async function getStaticPaths() {
-  const blogSlugs = ((context) => {
+  const blogSlugs = (context => {
     return getSlugs(context)
   })(require.context('../../posts', true, /\.md$/))
 
-  const paths = blogSlugs.map((slug) => `/post/${slug}`)
+  const paths = blogSlugs.map(slug => `/post/${slug}`)
 
   return {
     paths, // An array of path names, and any params
