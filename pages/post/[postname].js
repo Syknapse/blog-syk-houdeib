@@ -22,6 +22,14 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
         <article>
           <h1>{frontmatter.title}</h1>
           {frontmatter.hero_image && <img src={frontmatter.hero_image} className="hero" alt={frontmatter.title} />}
+          {frontmatter.canonical?.url && (
+            <div>
+              Originally published on:{' '}
+              <a href={frontmatter.canonical.url} target="_blank">
+                {frontmatter.canonical.title}
+              </a>
+            </div>
+          )}
           <div>
             <ReactMarkdown source={markdownBody} />
           </div>

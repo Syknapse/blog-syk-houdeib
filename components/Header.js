@@ -12,9 +12,9 @@ export default function Header() {
           <Link href="/about">
             <a>About</a>
           </Link>
-          <Link href="https://www.sykhoudeib.com/">
-            <a title="Portfolio, about me, contact, and more">sykhoudeib.com</a>
-          </Link>
+          <a href="https://www.sykhoudeib.com/" title="Portfolio, about me, contact, and more">
+            sykhoudeib.com
+          </a>
         </nav>
       </header>
       <style jsx>{`

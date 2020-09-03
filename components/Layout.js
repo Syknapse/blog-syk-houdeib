@@ -57,6 +57,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         footer img {
           padding: 0 5px;
           height: 1rem;
+          border-radius: 50%;
         }
       `}</style>
       <section className="layout">
@@ -64,7 +65,10 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <div className="content">{children}</div>
       </section>
       <footer>
-        Built with <img src="/netliheart.svg" alt="Netlify Heart" /> for you
+        Built with hummus and imaginary strings by <img src="/profile.JPG" alt="Profile picture" />
+        <a href="https://twitter.com/Syknapse" target="_blank" title="My Twitter">
+          Syk Houdeib
+        </a>
       </footer>
     </>
   )
