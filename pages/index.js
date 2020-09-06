@@ -15,11 +15,6 @@ const Index = ({ posts, title, description, ...props }) => {
         <main>
           <PostList posts={posts} />
         </main>
-        <p>
-          GitHub repo for this project <a href="https://github.com/Syknapse/blog-syk-houdeib">here</a>, and a tutorial
-          on how to build it {` `}
-          <a href="https://url.netlify.com/ByVW0bCF8">here</a>.
-        </p>
       </Layout>
       <style jsx>{`
         .title {

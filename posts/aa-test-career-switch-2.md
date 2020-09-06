@@ -1,16 +1,16 @@
 ---
-title: 'career switch test TWO'
+title: ' How I switched careers and got a developer job in 10 months: a true story'
 author: 'Syknapse'
-date: '2017-08-27'
+date: '2018-10-23'
+long_date: 'Oct 23, 2018'
 hero_image: ../static/milkovi-seattle-unsplash.jpg
 canonical:
   {
     title: 'Medium FreeCodeCamp Publication',
     url: 'https://medium.com/free-code-camp/how-i-switched-careers-and-got-a-developer-job-in-10-months-a-true-story-b8895e855a8b',
   }
+embed: '<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is it. Tomorrow I start my first front-end developer job<br>After 10 months of coding daily &amp; 270 days of <a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> it&#39;s happening and I can hardly believe it<br>So much to say, but for now for those who&#39;ve been cheering me on, love you, you were my great motivators 💜💜 <a href="https://t.co/SPXT8BR7th">pic.twitter.com/SPXT8BR7th</a></p>&mdash; Syk Houdeib (@Syknapse) <a href="https://twitter.com/Syknapse/status/983418336871632896?ref_src=twsrc%5Etfw">April 9, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
 ---
-
-# How I switched careers and got a developer job in 10 months: a true story
 
 This is how I career changed to front-end development at 40, starting with no relevant background experience or degree. I used only self-directed study while working full-time and spending next to nothing.
 
@@ -97,7 +97,8 @@ It is hard to convey how difficult it was to be away from my code. All I wanted 
 
 That was the moment my mission could have been derailed. Despite my best efforts, I had less and less time to code. I started losing my momentum. I tried to keep it up but there were days when I simply didn’t have time. Even with the best of intentions and good motivation, life can make things complicated.
 
-![My activity on GitHub showing the dip in October](https://cdn-images-1.medium.com/max/750/1*Ho2hNeNpx13UnERU9fI-8Q.png)_My activity on GitHub showing the dip in October_
+![My activity on GitHub showing the dip in October](https://cdn-images-1.medium.com/max/750/1*Ho2hNeNpx13UnERU9fI-8Q.png)  
+_My activity on GitHub showing the dip in October_
 
 However, as you can see from my GitHub activity image, I kept trying. I kept putting in the time, even if it was an hour, even if it was reading an article. I did everything I could not to get to the stage of losing all motivation. When you have left something for long enough, it makes it harder to get back to with every passing day.
 
@@ -153,7 +154,7 @@ The other was a young startup in the middle of great growth. After a phone inter
 
 In the end I had to choose. Which was a luxury I couldn’t believe I got. But I knew what I wanted, I took the offer with the [startup](https://twitter.com/LolaMarket_tech) based on one main point: they seemed to be very clear on the importance of mentorship and giving me guidance to grow and learn. That was the key. And it definitely was the right choice.
 
-<iframe src="https://medium.com/media/328bf231a8e6d42ea798450f6bbe5596" frameborder=0></iframe>
+![embed]()
 
 And so, on that rainy day in Madrid, after finishing my coffee. I walked into an office in the business area, introduced myself as the new front-end developer, and started my new career.
 

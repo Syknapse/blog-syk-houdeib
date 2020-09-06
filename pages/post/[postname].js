@@ -1,14 +1,34 @@
 import Link from 'next/link'
+import { useEffect } from 'react'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 
 import Layout from '@components/Layout'
 import getSlugs from '@utils/getSlugs'
-
-import colors from '../../themes/colors'
+import replaceElement from '@utils/replaceElement'
+import { breakpoints, colors } from '@themes/index'
 
 export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   if (!frontmatter) return <></>
+
+  useEffect(() => {
+    const target = document.querySelector('img[alt=embed]')
+    if (target && frontmatter.embed) replaceElement(target, frontmatter.embed)
+  })
+
+  useEffect(() => {
+    const images = document.querySelectorAll('.article-body img')
+    images.forEach(img => {
+      img.style = 'max-width: 100%'
+    })
+  })
+
+  useEffect(() => {
+    const quotes = document.querySelectorAll('blockquote')
+    quotes.forEach(quote => {
+      quote.style = `color: ${colors.secondaryGray}`
+    })
+  })
 
   return (
     <>
@@ -22,15 +42,18 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
         <article>
           <h1>{frontmatter.title}</h1>
           {frontmatter.hero_image && <img src={frontmatter.hero_image} className="hero" alt={frontmatter.title} />}
-          {frontmatter.canonical?.url && (
-            <div>
-              Originally published on:{' '}
-              <a href={frontmatter.canonical.url} target="_blank">
-                {frontmatter.canonical.title}
-              </a>
-            </div>
-          )}
-          <div>
+          <div className="date">
+            {frontmatter.long_date && <p>{frontmatter.long_date}</p>}
+            {frontmatter.canonical?.url && (
+              <p>
+                Originally published on:{' '}
+                <a href={frontmatter.canonical.url} target="_blank">
+                  {frontmatter.canonical.title}
+                </a>
+              </p>
+            )}
+          </div>
+          <div className="article-body">
             <ReactMarkdown source={markdownBody} />
           </div>
         </article>
@@ -41,7 +64,12 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           max-width: 1200px;
         }
         h1 {
-          font-size: 3rem;
+          font-size: 2rem;
+        }
+        @media ${breakpoints.primary} {
+          h1 {
+            font-size: 3rem;
+          }
         }
         h3 {
           font-size: 2rem;
@@ -53,6 +81,13 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           width: 100%;
           max-width: 1200px;
           color: ${colors.primary};
+        }
+        .date {
+          color: ${colors.secondaryGray};
+          margin: 16px 0 24px;
+        }
+        .date p {
+          margin: 8px 0;
         }
       `}</style>
     </>

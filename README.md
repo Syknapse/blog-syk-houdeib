@@ -69,3 +69,5 @@ Further options with:
 ```bash
 $ mediumexporter -h
 ```
+
+For embeddable elements like tweets, insert an empty image `![embed]()` into the markdown, and add the embed html to the the frontmatter header. The `replaceElement()` method in `/posts/[postname].js` will find the embed image tag and replace it with the embed html.

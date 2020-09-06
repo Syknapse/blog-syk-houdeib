@@ -23,6 +23,10 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           color: #445566;
         }
 
+        body * {
+          box-sizing: border-box;
+        }
+
         h1,
         h2,
         h3,
@@ -34,6 +38,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
 
         a {
           color: ${colors.primary};
+          text-decoration: none;
         }
 
         .content {
@@ -47,14 +52,21 @@ export default function Layout({ children, pageTitle, description, ...props }) {
 
         footer {
           width: 100%;
-          height: 100px;
           border-top: 1px solid #eaeaea;
           display: flex;
+          flex-direction: column;
           justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 2rem 20px;
+        }
+
+        .signature {
+          display: flex;
           align-items: center;
         }
 
-        footer img {
+        .signature img {
           padding: 0 5px;
           height: 1rem;
           border-radius: 50%;
@@ -65,10 +77,15 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <div className="content">{children}</div>
       </section>
       <footer>
-        Built with hummus and imaginary strings by <img src="/profile.JPG" alt="Profile picture" />
-        <a href="https://twitter.com/Syknapse" target="_blank" title="My Twitter">
-          Syk Houdeib
-        </a>
+        <p className="signature">
+          Built with hummus and imaginary strings by <img src="/profile.JPG" alt="Profile picture" />
+          <a href="https://twitter.com/Syknapse" target="_blank" title="My Twitter">
+            Syk Houdeib
+          </a>
+        </p>
+        <p>
+          View project on <a href="https://github.com/Syknapse/blog-syk-houdeib">GitHub</a>
+        </p>
       </footer>
     </>
   )

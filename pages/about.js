@@ -11,6 +11,11 @@ const About = ({ title, description, ...props }) => {
           <p>
             This is blog about front-end development, late career change, learning to program, and becoming a developer.
           </p>
+          <p>
+            GitHub repo for this project <a href="https://github.com/Syknapse/blog-syk-houdeib">here</a>, and a tutorial
+            on how to build it {` `}
+            <a href="https://url.netlify.com/ByVW0bCF8">here</a>.
+          </p>
         </div>
       </Layout>
     </>

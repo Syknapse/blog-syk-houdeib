@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import colors from '../themes/colors'
+import { breakpoints, colors } from '@themes/index'
 
 export default function Header() {
   return (
@@ -20,7 +20,6 @@ export default function Header() {
       <style jsx>{`
         header {
           width: 100%;
-          height: 100px;
           border-bottom: 1px solid #eaeaea;
           display: flex;
           justify-content: center;
@@ -30,15 +29,27 @@ export default function Header() {
           width: calc(100% - 40px);
           max-width: 1200px;
           font-weight: bold;
-          font-size: 1.3rem;
+          font-size: 0.9rem;
+          display: flex;
+          flex-wrap: wrap;
+          padding: 2em 0;
         }
         nav a {
           margin-right: 20px;
+          margin-top: 16px;
           color: ${colors.primary};
           text-decoration: none;
         }
         nav a:hover {
           text-decoration: underline;
+        }
+        @media ${breakpoints.primary} {
+          nav {
+            font-size: 1.3rem;
+          }
+          nav a {
+            margin-top: 0;
+          }
         }
       `}</style>
     </>
