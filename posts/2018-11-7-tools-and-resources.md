@@ -1,9 +1,9 @@
 ---
 title: 'The tools and resources that landed me a front-end developer job'
-author: 'Syknapse'
+author: 'Syk Houdeib'
 date: '2018-11-7'
 long_date: 'Nov 7, 2018'
-hero_image: ../static/milkovi-seattle-unsplash.jpg
+hero_image: ../static/tools-resources.jpeg
 canonical:
   {
     title: 'Medium FreeCodeCamp Publication',

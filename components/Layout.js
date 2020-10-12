@@ -20,7 +20,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           padding: 0;
           font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
             'Open Sans', 'Helvetica Neue', sans-serif;
-          color: #445566;
+          color: ${colors.textPrimary};
         }
 
         body * {
@@ -34,11 +34,19 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         h5,
         h6 {
           font-weight: bold;
+          color: ${colors.textSecondary};
         }
 
         a {
           color: ${colors.primary};
           text-decoration: none;
+        }
+
+        img + em {
+          display: block;
+          font-size: 1rem;
+          color: ${colors.secondaryGray};
+          text-align: center;
         }
 
         .content {

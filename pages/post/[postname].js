@@ -19,7 +19,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   useEffect(() => {
     const images = document.querySelectorAll('.article-body img')
     images.forEach(img => {
-      img.style = 'max-width: 100%'
+      img.style = 'display: block; max-width: 100%; margin: auto'
     })
   })
 
@@ -27,6 +27,20 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
     const quotes = document.querySelectorAll('blockquote')
     quotes.forEach(quote => {
       quote.style = `color: ${colors.secondaryGray}`
+    })
+  })
+
+  useEffect(() => {
+    const codeSnippets = document.querySelectorAll('code')
+    codeSnippets.forEach(snippet => {
+      snippet.style = `color: ${colors.textSecondary}; background-color: ${colors.backgroundGray}; padding: 0 4px`
+    })
+  })
+
+  useEffect(() => {
+    const codeBlocks = document.querySelectorAll('pre')
+    codeBlocks.forEach(block => {
+      block.style = `width: 100%; background-color: ${colors.backgroundGray}; padding: 8px; overflow: auto`
     })
   })
 
@@ -57,6 +71,12 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
             <ReactMarkdown source={markdownBody} />
           </div>
         </article>
+        <div className="back">
+          ←{' '}
+          <Link href="/">
+            <a>Back to post list</a>
+          </Link>
+        </div>
       </Layout>
       <style jsx>{`
         article {
@@ -88,6 +108,17 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
         }
         .date p {
           margin: 8px 0;
+        }
+        .article-body {
+          font-size: 1.125rem;
+          line-height: 1.6;
+          max-width: 680px;
+          margin: auto;
+        }
+        @media ${breakpoints.primary} {
+          .article-body {
+            font-size: 1.25rem;
+          }
         }
       `}</style>
     </>

@@ -1,9 +1,9 @@
 ---
 title: 'How I switched careers and got a developer job in 10 months: a true story'
-author: 'Syknapse'
+author: 'Syk Houdeib'
 date: '2018-10-23'
 long_date: 'Oct 23, 2018'
-hero_image: ../static/milkovi-seattle-unsplash.jpg
+hero_image: ../static/career-switch.jpeg
 canonical:
   {
     title: 'Medium FreeCodeCamp Publication',
