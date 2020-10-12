@@ -1,5 +1,5 @@
 ---
-title: ' How I switched careers and got a developer job in 10 months: a true story'
+title: 'How I switched careers and got a developer job in 10 months: a true story'
 author: 'Syknapse'
 date: '2018-10-23'
 long_date: 'Oct 23, 2018'
