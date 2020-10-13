@@ -1,7 +1,7 @@
 ---
 title: 'The tools and resources that landed me a front-end developer job'
 author: 'Syk Houdeib'
-date: '2018-11-7'
+date: '2018-11-07'
 long_date: 'Nov 7, 2018'
 hero_image: ../static/tools-resources.jpeg
 canonical:

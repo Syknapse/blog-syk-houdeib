@@ -1,7 +1,7 @@
 ---
 title: 'The three essential programming concepts for front ends'
 author: 'Syk Houdeib'
-date: '2019-11-3'
+date: '2019-11-03'
 long_date: 'Nov 3, 2019'
 hero_image: ../static/three-concepts.jpeg
 canonical:

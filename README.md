@@ -49,7 +49,9 @@ hero_image: ../static/example.jpg
 
 Hosted on `blog` subdomain of `sykhoudeib.com`. More info on subdomain hosting [here](https://dev.to/chiangs/host-your-projects-on-subdomains-59m3), and different repos for different subdomains on Netlify [here](https://www.freecodecamp.org/news/how-to-host-a-git-repository-on-a-subdomain-with-netlify-b8afb5fca96e/)
 
-## Import from Medium to Markdown
+## Import to Markdown
+
+### From Medium
 
 Use [mediumexporter](https://www.npmjs.com/package/mediumexporter) to import Medium articles and transform to compatible markdown.
 
@@ -71,3 +73,8 @@ $ mediumexporter -h
 ```
 
 For embeddable elements like tweets, insert an empty image `![embed]()` into the markdown, and add the embed html to the the frontmatter header. The `replaceElement()` method in `/posts/[postname].js` will find the embed image tag and replace it with the embed html.
+
+### From others
+
+Use [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/).  
+Copy the page (not the URL) and paste to ge the markdown.

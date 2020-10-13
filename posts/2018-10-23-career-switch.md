@@ -110,7 +110,7 @@ This meant that my life was pretty much reduced to doing the job that was paying
 
 ## Tools and resources
 
-Over the 10 months leading to my job offer, I immersed myself in everything code related. The most frequent question I get asked on [Twitter](https://twitter.com/Syknapse) is about what resources I used. I’ve written [another article](https://medium.freecodecamp.org/the-tools-and-resources-that-landed-me-a-front-end-developer-job-1314c6f1fa7f) that answers this question in-depth. However, here is a brief list of the most important tools and resources.
+Over the 10 months leading to my job offer, I immersed myself in everything code related. The most frequent question I get asked on [Twitter](https://twitter.com/Syknapse) is about what resources I used. I’ve written [another article](post/2018-11-07-tools-and-resources) that answers this question in-depth. However, here is a brief list of the most important tools and resources.
 
 ### Courses
 
@@ -160,4 +160,4 @@ And so, on that rainy day in Madrid, after finishing my coffee. I walked into an
 
 _I hope you enjoyed my story. If you did, you would make me happy if you give it some of those tasty claps. And you could even make my day by sharing it so more people can read it and learn they too can make it. I want to keep writing more of these articles. So if there is any particular aspect of this process you would like to know more about, I would love to hear about it. Come and say hi on [Twitter](https://twitter.com/Syknapse) @Syknapse_
 
-[Check out my article about all the resources I used to get this job.](https://medium.freecodecamp.org/the-tools-and-resources-that-landed-me-a-front-end-developer-job-1314c6f1fa7f)
+[Check out my article about all the resources I used to get this job.](post/2018-11-07-tools-and-resources)
