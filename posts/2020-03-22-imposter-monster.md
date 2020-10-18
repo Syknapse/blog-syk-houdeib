@@ -1,5 +1,6 @@
 ---
 title: 'Imposter monster. My first month as a developer'
+subtitle: "The worst thing about the imposter syndrome is that it manages to convince you it's real even when you know it's not. Here's how the imposter syndrome affected me in my first month as a developer."
 author: 'Syk Houdeib'
 date: '2020-03-22'
 long_date: 'Mar 22, 2020'

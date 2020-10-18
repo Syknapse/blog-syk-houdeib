@@ -1,5 +1,6 @@
 ---
 title: 'The corner-stones of finding the first front-end job'
+subtitle: 'There’s a lot that you can do to improve your chances of getting that first job in tech. Your programming skills are not the end of it. Without experience, you will need to take steps to convince employers that you deserve a chance. Here’s how I did it.'
 author: 'Syk Houdeib'
 date: '2020-04-06'
 long_date: 'Apr 6, 2020'

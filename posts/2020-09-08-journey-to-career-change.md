@@ -1,5 +1,6 @@
 ---
 title: 'Journey towards career change. Beyond learning the skills.'
+subtitle: "Changing your career requires more than learning new skills. Here's the journey that set me up to succeed in a move from teaching to programming, and what a strange late-night noise had to do with it."
 author: 'Syk Houdeib'
 date: '2020-09-08'
 long_date: 'Sept 08, 2020'

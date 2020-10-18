@@ -1,5 +1,6 @@
 ---
 title: 'The three essential programming concepts for front ends'
+subtitle: 'A beginner introduction to arrays, loops, and conditionals. Why we need them and how they all fit together in a front-end context. It’s a bird’s eye view of organising data, accessing it, and doing things to it. Covering fundamental every-day concepts for a front-end developer.'
 author: 'Syk Houdeib'
 date: '2019-11-03'
 long_date: 'Nov 3, 2019'

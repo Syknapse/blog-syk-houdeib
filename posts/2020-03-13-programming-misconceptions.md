@@ -1,5 +1,6 @@
 ---
 title: 'The 10 misconceptions about becoming a programmer'
+subtitle: "Do you have what it takes to become a programmer? Chances are, you will base your answer on a bunch of untrue stereotypes and misconceptions. Those are harmful because they stop you from trying out this career path. Let's take a look at some of the things that you do not need to become a programmer."
 author: 'Syk Houdeib'
 date: '2020-03-13'
 long_date: 'Feb 13, 2020'

@@ -1,5 +1,6 @@
 ---
 title: 'How I switched careers and got a developer job in 10 months: a true story'
+subtitle: 'This is how I career changed to front-end development at 40, starting with no relevant background experience or degree. I used only self-directed study while working full-time and spending next to nothing.'
 author: 'Syk Houdeib'
 date: '2018-10-23'
 long_date: 'Oct 23, 2018'

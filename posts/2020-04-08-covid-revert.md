@@ -1,5 +1,6 @@
 ---
 title: 'Lessons We Can Learn from Git Revert in Our Fight with COVID-19'
+subtitle: 'In this article, I’ll discuss how a small tech team found itself in the middle of a national emergency in Spain. And what their use of git revert can teach us about dealing with COVID-19 in our personal lives.'
 author: 'Syk Houdeib'
 date: '2020-04-08'
 long_date: 'Apr 8, 2020'

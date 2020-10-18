@@ -1,5 +1,6 @@
 ---
 title: 'How I Got Hundreds Of GitHub Stars As a Total Beginner'
+subtitle: "Beginners are often told to get involved in the community, contribute to open source or work on projects. But how does one even start? Here's the story of how I created a project that got hundreds of GitHub stars - all before I even started working as a developer."
 author: 'Syk Houdeib'
 date: '2020-05-13'
 long_date: 'May 13, 2020'

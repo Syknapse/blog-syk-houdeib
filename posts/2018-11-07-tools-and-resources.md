@@ -1,5 +1,6 @@
 ---
 title: 'The tools and resources that landed me a front-end developer job'
+subtitle: 'Learning front-end development can be a bit overwhelming at times. There are so many resources and tools, and so little time. What should you pick? And what should you focus on?'
 author: 'Syk Houdeib'
 date: '2018-11-07'
 long_date: 'Nov 7, 2018'
