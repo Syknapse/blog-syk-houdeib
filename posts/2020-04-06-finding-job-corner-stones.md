@@ -6,10 +6,12 @@ long_date: 'Apr 6, 2020'
 hero_image: ../static/finding-job-corner-stones.jpeg
 canonical:
   {
-    title: 'BetterProgramming',
-    url: 'https://medium.com/better-programming/how-to-get-a-developer-job-with-no-experience-like-i-did-2cbede58a5d6',
+    title: 'Hackernoon',
+    url: 'https://hackernoon.com/how-to-get-a-developer-job-with-no-experience-like-i-did-db2e32zz',
   }
 ---
+
+_This article was also published on [BetterProgramming](https://medium.com/better-programming/how-to-get-a-developer-job-with-no-experience-like-i-did-2cbede58a5d6)_
 
 There’s a lot that you can do to improve your chances of getting that first job in tech. Your programming skills are not the end of it.
 

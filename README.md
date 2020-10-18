@@ -77,4 +77,4 @@ For embeddable elements like tweets, insert an empty image `![embed]()` into the
 ### From others
 
 Use [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/).  
-Copy the page (not the URL) and paste to ge the markdown.
+Copy the page (not the URL) and paste to get the markdown.

@@ -1,5 +1,5 @@
 ---
-title: "The 10 things you don't need to have to become a programmer"
+title: 'The 10 misconceptions about becoming a programmer'
 author: 'Syk Houdeib'
 date: '2020-03-13'
 long_date: 'Feb 13, 2020'

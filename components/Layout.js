@@ -35,6 +35,8 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         h6 {
           font-weight: bold;
           color: ${colors.textSecondary};
+          margin-top: 3rem;
+          margin-bottom: 1rem;
         }
 
         a {

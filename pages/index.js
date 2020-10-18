@@ -42,7 +42,7 @@ const Index = ({ posts, title, description, ...props }) => {
         </p>
         <main>
           <div id="sort">
-            <label htmlFor="new">Newest</label>
+            <label htmlFor="new">Latest</label>
             <input
               id="new"
               type="radio"
