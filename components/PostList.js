@@ -11,7 +11,6 @@ export default function PostList({ posts }) {
         <ul className="post-list">
           {posts &&
             posts.map(post => {
-              console.log('post: ', post)
               if (post.frontmatter.status !== 'unpublished')
                 return (
                   <li key={post.slug}>
