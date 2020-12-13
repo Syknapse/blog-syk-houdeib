@@ -78,3 +78,5 @@ For embeddable elements like tweets, insert an empty image `![embed]()` into the
 
 Use [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/).  
 Copy the page (not the URL) and paste to get the markdown.
+
+From Google Docs use [docs to markdown](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607) add-on

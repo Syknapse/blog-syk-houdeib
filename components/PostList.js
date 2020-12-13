@@ -11,21 +11,23 @@ export default function PostList({ posts }) {
         <ul className="post-list">
           {posts &&
             posts.map(post => {
-              return (
-                <li key={post.slug}>
-                  <Link href={{ pathname: `/post/${post.slug}` }}>
-                    <a className="post-link">
-                      <p className="date">{post.frontmatter.long_date || post.frontmatter.date}</p>
-                      <img className="hero" src={post.frontmatter.hero_image || '../static/default-hero.jfif'} />
-                      <p className="title">{post?.frontmatter?.title}</p>
-                      <p className="subtitle">
-                        {post?.frontmatter?.subtitle}
-                        <strong>.. Read more -&gt;</strong>
-                      </p>
-                    </a>
-                  </Link>
-                </li>
-              )
+              console.log('post: ', post)
+              if (post.frontmatter.status !== 'unpublished')
+                return (
+                  <li key={post.slug}>
+                    <Link href={{ pathname: `/post/${post.slug}` }}>
+                      <a className="post-link">
+                        <p className="date">{post.frontmatter.long_date || post.frontmatter.date}</p>
+                        <img className="hero" src={post.frontmatter.hero_image || '../static/default-hero.jfif'} />
+                        <p className="title">{post?.frontmatter?.title}</p>
+                        <p className="subtitle">
+                          {post?.frontmatter?.subtitle}
+                          <strong>.. Read more -&gt;</strong>
+                        </p>
+                      </a>
+                    </Link>
+                  </li>
+                )
             })}
         </ul>
       </div>
