@@ -2,10 +2,9 @@
 title: 'Become a Better Programmer: Take Notes'
 subtitle: 'Why we need to take notes, how it helps to develop your skills, what tools are available, and the types of things you should be documenting'
 author: 'Syk Houdeib'
-date: '2020-13-12'
+date: '2020-12-13'
 long_date: 'December 13, 2020'
 canonical: { title: '.cult by Honeypot', url: '' }
-status: 'unpublished'
 ---
 
 Developing and growing a skillset takes time, it doesn’t come overnight but with years of practice. In saying that, there are ways to improve and fast-track how you learn and grow as a programmer. Getting in the habit of taking notes and documenting, I believe, is a sure-fire way to creating immediate impact in your career as a developer.
@@ -46,31 +45,31 @@ So we know why and we know how, but WHAT exactly should we document?
 
 **You should document anything and everything that you find useful.** There are no limits. Here's my list of some of the things I document regularly to give you some ideas.
 
-- Document the **things you are learning**. This is the big one. And it deserves a full article of its own. But whatever things you are learning that you need a quick reference to will be useful here. Just don't rewrite MDN docs! That’s already available to you online. \
+- Document the **things you are learning**. This is the big one. And it deserves a full article of its own. But whatever things you are learning that you need a quick reference to will be useful here. Just don't rewrite MDN docs! That’s already available to you online.
 
-- **Local development environment**. How to run the project. What port it uses, what URL, the commands you need, steps to take. \
+- **Local development environment**. How to run the project. What port it uses, what URL, the commands you need, steps to take.
 
-- **How deploys are done**in each one of the projects you work in. What tools are used, what commands you need, tips on how it works, troubleshooting. \
+- **How deploys are done**in each one of the projects you work in. What tools are used, what commands you need, tips on how it works, troubleshooting.
 
-- **The Git flow your team uses**. How to branch, where to develop, where to merge, how PRs work, how a release works. \
+- **The Git flow your team uses**. How to branch, where to develop, where to merge, how PRs work, how a release works.
 
-- **The different environments** you have in a project. Production, pre-production, and staging for instance. What their uses are. How to point your local development at one or the other and when to do it. \
+- **The different environments** you have in a project. Production, pre-production, and staging for instance. What their uses are. How to point your local development at one or the other and when to do it.
 
-- **Common commands** that you want handy and in one place. Frequent console commands, Git commands, commands you use for the project or the environments. \
+- **Common commands** that you want handy and in one place. Frequent console commands, Git commands, commands you use for the project or the environments.
 
-- **Shortcuts**. Add new keyboard shortcuts you are learning so you can refer back to them and use them often to memorise them. Like shortcuts for your IDE, OS, your Git host, and your frequently used browsers. \
+- **Shortcuts**. Add new keyboard shortcuts you are learning so you can refer back to them and use them often to memorise them. Like shortcuts for your IDE, OS, your Git host, and your frequently used browsers.
 
-- **Useful data for your project** to test things. For example, valid or invalid postal codes and phone numbers for registration, test credit card numbers and any other useful information. \
+- **Useful data for your project** to test things. For example, valid or invalid postal codes and phone numbers for registration, test credit card numbers and any other useful information.
 
-- **Code snippets**. Things you use often you regularly find yourself looking up. \
+- **Code snippets**. Things you use often you regularly find yourself looking up.
 
-- **Code blocks**. Larger chunks of code to document how something is done. \
+- **Code blocks**. Larger chunks of code to document how something is done.
 
-- **How-tos**. Things you need to do regularly that you might forget how to do. How to run a local dev environment on your phone or how to test an error in a network request for example. \
+- **How-tos**. Things you need to do regularly that you might forget how to do. How to run a local dev environment on your phone or how to test an error in a network request for example.
 
-- **Things you do very occasionally**. Things that you will do once when you set up your machine or clone the project and then completely forget about until a year later when you have to do it again. \
+- **Things you do very occasionally**. Things that you will do once when you set up your machine or clone the project and then completely forget about until a year later when you have to do it again.
 
-- **Common debugging strategies** in your project. Have you deleted node modules before reinstalling? Have you downloaded the translation files? \
+- **Common debugging strategies** in your project. Have you deleted node modules before reinstalling? Have you downloaded the translation files?
 
 - **The application you are working on itself.** What should happen when the URL is entered, What is the flow, what sequence of requests take place, what are the different use cases, diagrams, flow charts, and the like.
 
@@ -82,7 +81,7 @@ Now we have a good idea about the kind of things we want to document, what are t
 
 Here are my favourite tools and tips to make note-taking easy and more enjoyable.
 
-1. Learn markdown
+1. **Learn markdown**
 
 A junior is always presented with a million things they should learn right away to succeed at programming. It can be overwhelming. But Markdown is really a base skill that will come in handy and be useful from the earliest stages of learning.
 
@@ -90,7 +89,7 @@ The good news is if you are familiar with the common HTML tags [learning Markdow
 
 Once you are familiar with this you will be more inclined to write readmes and then once you get used to the system you can start using it for your own note-taking and documentation. It's fast, it's efficient. And best of all, you never have to leave your text editor or IDE to write or read Markdown files.
 
-1. Readmes
+2. **Readmes**
 
 As mentioned above, readmes are always the first port of call for documentation. Whether it's an established project you are joining or starting your own from scratch it — there should always be a readme with as much useful information as possible. And you should contribute to this as much as you can!
 
@@ -100,17 +99,17 @@ If it is a new project —at work or collaborating— check with the team and th
 
 Project readmes are always going to be technical, about the specifics of the project, and public for everyone who has access to the repo. Therefore, we need a more personal space to keep _our_ notes.
 
-1. Markdown files and notes repos
+3. **Markdown files and notes repos**
 
 We've learnt markdown, we use readmes for projects. Now we can take this one step further. If you are using GitHub (or any other Git hosting service) it's already the best place to store and use notes about coding. I have a repo called [My Learning Tracker](https://github.com/Syknapse/My-Learning-Tracker) where I keep track of my learning. In it, I have a directory called notebooks where I have many Markdown notes. This is where I make notes about things I'm learning, things that confuse me, things that I need to refer to often.
 
 Anything to do with coding that I know will come in handy again is stored in my learning tracker. The best thing about having it in GitHub is that this is where I'm working most of the time and I have access to these notes whenever I need them without changing context.
 
-1. AFK notebooks
+4. **AFK notebooks**
 
 Yes, I'm referring to physical notebooks made of paper. I always have one on my desk and in my bag. The best thing about them is that they give you the perfect excuse to buy pens, pencils, and other retro tools that we hardly have a need for these days. The worst thing about it, well it's not a great way to organise, fix errors, or search. So I generally prefer digital media. But it's still a useful thing to have around for short term note-taking before moving them to a more permanent place. And you can always use it for sketching and thinking about your code.
 
-1. Keep
+5. **Keep**
 
 When I say “Keep” I can be referring to any number of simple note-taking tools which are similar. Personally, I ended up using Keep because I'm already working within the Google ecosystem and it’s simpler to access, use, and sync my notes.
 
@@ -118,7 +117,7 @@ When I say “Keep” I can be referring to any number of simple note-taking too
 
 Eventually, though, your collection of notes is going to grow and you are going to need a more versatile solution, one that gives you more options and feels more permanent.
 
-6. Notion
+6. **Notion**
 
 Disclaimer, I'm not sponsored by [Notion](https://www.notion.so/), but if anyone from Notion HQ reads this, you should consider sponsoring me because I preach for Notion every day!
 

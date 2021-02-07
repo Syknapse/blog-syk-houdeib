@@ -8,7 +8,17 @@ A detailed tutorial of how to build this can be found in this [tutorial blog pos
 
 ## Dev
 
-To work on the project locally, run the development server:
+To work on the project locally  
+
+Install
+
+```bash
+npm install
+# or
+yarn
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -21,6 +31,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser.
 ### Posts
 
 New blog posts are added to the `posts` directory in Markdown.
+
+Add `status: 'unpublished'` to the frontmatter of articles you don't want visible on the site.
 
 ### Pages
 
